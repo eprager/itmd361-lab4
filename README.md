@@ -4,6 +4,6 @@ Emma Prager
 
 ITMD Lab 4
 
-Form with PHP
+HTML Form
 
 Illinois Istitute of Technology

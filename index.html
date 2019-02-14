@@ -2,13 +2,43 @@
 <html lang="en">
   <head>
   <meta charset="UTF-8">
-  <title>Lab 4</title>
+  <title>Voluteer Form</title>
 </head>
 <body>
-
-  <form>
+  <h1>Volunteer Form</h1>
+  <form action="http://bloomingsale.sat.iit.edu/kriedan/lab3formscript.php" method="post">
+    <fieldset>
+      <h3>My Info</h3>
+      <label for="name">First Name:</label>
+      <input type="text" id="first_name" name="first_name_field">
+   
+      <label for="name">Last Name:</label>
+      <input type="text" id="last_name" name="last_name_field">
     
-  </form>
+      <label for="phone_number">Phone Number::</label>
+      <input type="phone_number" id="phone_number" name="phone_field">
+    
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email_field">
 
+      <input type="hidden" id="Emma Prager Lab 4" name="hidden_field">
+
+      <label for="gender">Gender</label>
+      <input type="radio" checked="checked" name="gender_field">
+
+      <label for="age">Age</label>
+      <input type="dropdown" id="age" name="age_field">
+    </fieldset>
+    <h3>My Avalibility</h3>
+    <fieldset>
+      <label for="days">Days Avalible:</label>
+      <input type="checkbox" id="days" name="available_field">
+
+      <label for="comments">Any Comments?</label>
+      <input type="text" id="comments" name="comments_field">
+    </fieldset>
+    
+    <input type="submit" value="Send Me">
+  </form>
 </body>
 </html>
